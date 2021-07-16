@@ -1,102 +1,328 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Website Mokup]()
 
-Welcome USER_NAME,
+ [View Live Site Here]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
 
-## Gitpod Reminders
+# Dino Hatch
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Contents
 
-`python3 -m http.server`
+[Overview](#overview)
+* [UX](#ux)
+    * [Project Goals](#project-goals)
+    * [User Goals](#user-goals)
+    * [User Stories](#user-stories)
+    * [Site Owner Goals](#site-owner-goals)
+    * [User requirements and expectations](#User-requirements-and-expectations)
 
-A blue button should appear to click: _Make Public_,
+* [DESIGN](#design)
+    * [Design Choices](#design-choices)
+    * [Colors](#colors)
+    * [Fonts](#fonts)
+    * [Structure](#structure)
 
-Another blue button should appear to click: _Open Browser_.
+* [WIREFRAMES](#wireframes)
+    * [Start Page](#start)
+    * [Game Page](#game)
+    * [Congratulations Modal](#congratulations)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* [FEATURES](#features)
+    * [Feature 1: Start Page](#start)
+    * [Feature 2: Game Page](#game)
+    * [Feature 3: Congratulations Modal](#congratulations)
 
-A blue button should appear to click: _Make Public_,
+* [TECHNOLOGIES USED](#technologies)
+    * [Github](#github)
+    * [Gitpod](#gitpod)
+    * [Google Fonts](#google-fonts)
+    * [Font Awesome](#font-awesome)
+    * [Bootstrap CDN](#bootstrap)
+    * [jQuery](#jquery)
+    * [Popper.js](#popper.js)
+    * [WAVE](#wave)
+    * [W3 HTML](#w3-html)
+    * [Jigsaw CSS](#jigsaw-css)
+    * [Balsamic](#balsamic)
+    * [HTML Beautifier](#html-beautyfier)
 
-Another blue button should appear to click: _Open Browser_.
+* [TESTING](#testing)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* [BUGS](#bugs)
 
-To log into the Heroku toolbelt CLI:
+* [DEPLOYMENT](#deployment)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* [CREDITS](#credits)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Overview <hr>
 
-------
+ 
+### UX <hr>
+#### Project Goals 
 
-## Release History
+#### User Goals
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+#### User Stories
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+#### Site Owner Goals
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+#### User Requirements and expectations
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![User Goals Test]()
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### DESIGN <hr>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### DESIGN CHOICES
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### COLOURS
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+#### FONTS
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
+#### IMAGES
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+### WIREFRAMES <hr>
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+#### Start
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+* [mobile-start]()
 
-**So….?**
+* [tablet-start]()
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+* [desktop-start]()
 
-**Can I opt out?**
+#### Game
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* [mobile-game]()
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+* [tablet-game]()
 
-**Anything more?**
+* [desktop-game]()
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+#### Game Completed Modal
 
----
+* [mobile-modal]()
 
-Happy coding!
+* [tablet-modal]()
+
+* [desktop-modal]()
+
+
+### FEATURES <hr>
+
+
+#### Feature 1: 
+* 
+
+* 
+
+![...]()
+
+* 
+
+![...]()
+
+
+* 
+
+![...]()
+
+* 
+
+![...]()
+#### Feature 2: 
+
+* 
+
+* 
+
+![...]()
+
+* 
+
+![...]()
+
+* 
+
+![...]()
+
+* 
+
+#### Feature 3: ...
+
+* 
+
+* 
+
+![...]()
+
+* 
+
+![...]()
+
+* 
+
+#### Feature 4: ...
+
+* 
+
+![...]()
+
+* 
+
+![...]()
+
+* 
+
+![...]()
+
+* 
+
+![...]()
+
+#### Feature 5: ...
+
+* 
+
+!![...]()
+
+### TECHNOLOGIES USED <hr>
+
+Languages used:
+
+* javascript
+* HTML 5
+* CSS
+- [Gitpod](https://gitpod.io) 
+    - Used **Gitpod** as my open source platform.
+- [Github](https://github.com/) 
+    - Used **Github** as my code hosting platform
+- [Google Fonts](https://fonts.google.com/)
+    - This project uses **Google fonts** to style the website fonts.
+- [BootstrapCDN](https://www.bootstrapcdn.com/)
+    - This project uses **Bootstrap4** to simplify the structure of the website and make the website responsive
+    - This project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
+
+- [jQuery](https://jquery.com/)
+    - This project uses **jQuery** to reference Javascript needed for the responsive navbar.
+- [Popper.js](https://popper.js.org/)
+    - **Popper.js** was used to reference Javascript needed for the responsive navbar.
+- [WAVE](https://wave.webaim.org)
+    - Used **WAVE** to evaluate my code to ensure the content is fully accessable to individuals with disabilities.
+- [W3 HTML](https://validator.w3.org/)
+    - Used **W3 HTMLs** for HTML code valuation
+- [Jigsaw CSS](https://jigsaw.w3.org/css-validator/)
+    - Used **Jigsaw CSS** to Validate CSS Code
+- [Balsamic](https://balsamiq.com/)
+    - Used **Balsamic** to create [WIREFRAMES](#wireframes)
+- [Minify Code](http://minifycode.com/html-beautifier/)
+    - **Minify Code** is a tool I used to minify and beautify CSS and HTML codes
+
+
+
+### TESTING <hr>
+
+### Performance
+
+Google Lighthouse was used to measure the speed and performance of the website. 
+
+#### Start
+
+* [Lighthouse Mobile Start]()
+* [Lighthouse Tablet Start]()
+* [Lighthouse Desktop Start]()
+
+#### Game
+
+* [Lighthouse Mobile Game]()
+* [Lighthouse Tablet Game]()
+* [Lighthouse Desktop Game]()
+
+#### Modal Congratulations
+
+* [Lighthouse Mobile Modal]()
+* [Lighthouse Tablet Modal]()
+* [Lighthouse Desktop Modal]()
+
+### Accessibility
+
+WAVE Web Accessibility Evaluation Tool was used to test the sites accessibility....
+
+#### Start
+
+* [Start Page Evaluation](docs/validation/home-wave.png)
+
+
+#### Game
+
+* [Game Page Evaluation](docs/validation/about-wave.png)
+
+
+#### Modal
+
+* [Modal Page Evaluation](docs/validation/courses-wave.png)
+
+### HTML and CSS Validation
+
+
+* [HTML Validation]()
+
+
+* [CSS Validation]() 
+
+
+### DEPLOYMENT <hr>
+
+This project was developed using the [Gitpod](https://gitpod.io), committed to git, and pushed to GitHub using the Gitpod terminal. 
+
+To deploy this page to GitHub Pages from its [GitHub repository](https://nikimacm.github.io/milestone-1-salazar/), the following process was completed: 
+1. Log into GitHub. 
+2. Click on the account avatar in the top right corner and select "Your repositories" from the dropdown menu.
+3. From the list of repositories, select **gbrw**.
+4. From the menu bar at the top of the page, select **Settings**.
+5. In the menu bar on the left side of the screen, select the second menu item from the bottom, "Pages."
+6. In the **Source** section, select **Master Branch** from the dropdown menu, then click on **Save**.
+7. As a result, the page is refreshed and the website deployed. The **website URL** appears in a blue box above the **Source Section**.
+
+At the moment of submitting this Milestone project the Development Branch and Master Branch are identical. 
+
+### How to run this project locally
+To clone this project into Gitpod you will need a Github account. [Create a Github account here](https://github.com/)
+
+Then follow these steps:
+1. Log into [Gitpod](https://gitpod.com) with your gitpod account.
+2. Navigate to the [Project GitHub repository](https://github.com/nikimacm/milestone-1-salazar)
+3. Click the green "Gitpod" button in the top right corner of the respository
+4. This will trigger a new gitpod workspace to be created based on the code in GitHub. There, you will be able to work locally.
+
+To work on the project code within a local IDE such as VSCode, Sublime Text, etc.:
+1. Navigate to the [Project GitHub repository](https://github.com/nikimacm/milestone-1-salazar)
+2. Click the "Code" download button next to the green "Gitpod" button.
+3. In the Clone section, select HTTPs and copy the clone URL for the repository. 
+4. Open your local terminal.
+5. Change the current working directory to the location where you want the cloned directory to be located.
+6. Type ```git clone```, and then paste the URL you copied in Step 4.
+7. Press Enter for your local clon to be created.
+
+
+### CREDITS<hr>
+
+#### Images
+
+I downloaded all the images for this site from ....
+
+* Image by <a href="https://">name of illustrator</a> on <a href="">name of web</a>
+
+#### Code
+
+
+
+ 
+ ### ACKNOWLEDGEMENTS<hr><hr>
