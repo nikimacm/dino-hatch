@@ -9,11 +9,12 @@
 
 body {
   height: 100vh;
-  display: flex;
   background: #060AB2;
 }
 
+
 .memory-game {
+  border: 2px solid green;
   width: 640px;
   height: 640px;
   margin: auto;
@@ -22,6 +23,7 @@ body {
 }
 
 .memory-card {
+  border: 2px solid rebeccapurple;
   width: 5px;
   height: 5px;
   margin: 5px;
@@ -31,6 +33,7 @@ body {
 
 .front-face,
 .back-face {
+  border: 2px solid indianred;
   width: 100%;
   height: 100%;
   padding: 20px;
