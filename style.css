@@ -9,7 +9,8 @@
 
 body {
   height: 100vh;
-  background: #060AB2;
+  display: flex;
+  background: #81D2E3;
 }
 
 
@@ -23,12 +24,14 @@ body {
 }
 
 .memory-card {
-  border: 2px solid rebeccapurple;
-  width: 5px;
-  height: 5px;
+  width: calc(25% - 10px);
+  height: calc(33.333% - 10px);
   margin: 5px;
   position: relative;
   box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  transform: scale(1);
+  transform-style: preserve-3d;
+ transition: transform .5s;
 }
 
 .front-face,
