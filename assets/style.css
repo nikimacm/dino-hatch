@@ -39,6 +39,10 @@ body {
   transition: transform .2s;
 }
 
+.memory-card.flip {
+  transform: rotateY(180deg);
+}
+
 .front-face,
 .back-face {
   border: 2px solid indianred;
