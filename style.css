@@ -34,6 +34,11 @@ body {
  transition: transform .5s;
 }
 
+.memory-card:active {
+  transform: scale(0.97);
+  transition: transform .2s;
+}
+
 .front-face,
 .back-face {
   border: 2px solid indianred;
