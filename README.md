@@ -1,6 +1,6 @@
 ![Website Mokup]()
 
- [View Live Site Here]()
+ [View Live Site Here](https://github.com/nikimacm/dino-hatch.git)
 
 
 # Dino Hatch
