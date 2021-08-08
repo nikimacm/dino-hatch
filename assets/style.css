@@ -31,6 +31,15 @@ body {
   background-repeat: no-repeat; }
 }
 
+@media (orientation: landscape) {
+  body {
+    flex-direction: row;
+  }
+
+  .img-fluid {
+    background-image: url('images/dino-index-dt.png')!important; 
+  }
+}
 /* Container holding the image and the text */
 .main-container {
   position: relative;
