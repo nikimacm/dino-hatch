@@ -11,13 +11,15 @@ body {
   height: 100vh;
   display: flex;
   background-size: cover;
+  background-color: white;
 }
 
 
-.img-fluid {
-  background-size: contain;
+.img-fluid .px-0 {
+  background-size: cover;
   padding: 0px;
   margin: 0px;
+  background-position: bottom;
 }
 
 @media (min-width: 992px) { 
@@ -25,8 +27,14 @@ body {
   background-image: url('images/dino-index-dt.png'); background-size: cover; background-position: center center; background-repeat: no-repeat; }
 }
 
+/* Container holding the image and the text */
+.main-container {
+  position: relative;
+  text-align: center;
+  color: black
+}
   /* Centered text */
-/*.centered {
+ .centered {
     position: absolute;
     top: 50%;
     left: 50%;
