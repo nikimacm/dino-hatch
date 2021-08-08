@@ -11,7 +11,7 @@ body {
   height: 100vh;
   display: flex;
   background-size: cover;
-  background-color: white;
+  background-color: rgb(20, 169, 196);
 }
 
 
@@ -23,8 +23,12 @@ body {
 }
 
 @media (min-width: 992px) { 
+  .main-container
   .img-fluid {
-  background-image: url('images/dino-index-dt.png'); background-size: cover; background-position: center center; background-repeat: no-repeat; }
+  background-image: url('images/dino-index-dt.png')!important; 
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat; }
 }
 
 /* Container holding the image and the text */
@@ -40,6 +44,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  
 .memory-game {
   width: 640px;
   height: 640px;
@@ -76,7 +81,7 @@ body {
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  background: #1C7CCC;
+  background: #1f0218;
   backface-visibility: hidden;
 }
 
