@@ -11,34 +11,32 @@ body {
   height: 100vh;
   display: flex;
   background-size: cover;
-  background-color: rgb(20, 169, 196);
+  background-color: rgb(20, 169, 196); 
 }
 
 
-.img-fluid .px-0 {
-  background-size: cover;
-  padding: 0px;
-  margin: 0px;
-  background-position: bottom;
+#bg-image{
+  width: 200px;
+  height: 
+  400px;
+  object-fit: cover;
+
 }
 
-@media (min-width: 992px) { 
-  .main-container
-  .img-fluid {
-  background-image: url('images/dino-index-dt.png')!important; 
-  background-size: cover; 
-  background-position: center center; 
-  background-repeat: no-repeat; }
+@media only screen and (min-width: 1000px) { 
+  #bg-image {
+  background-position-x: 50px;}
 }
 
 @media (orientation: landscape) {
   body {
     flex-direction: row;
-  }
 
-  .img-fluid {
+  }
+ .img-fluid {
     background-image: url('images/dino-index-dt.png')!important; 
   }
+ 
 }
 /* Container holding the image and the text */
 .main-container {
