@@ -14,20 +14,31 @@ body {
 }
 
 #bg-image {
-  min-height: 100%;
+
+ margin: 0 auto;
+ background-size: cover no-repeat;
+ 
 
 }
-@media only screen and (min-width: 1000px) { 
-  #bg-image {
-    background-image: url(images/dino-index-dt.png);
-  background-position-x: 50px;}
+@media only screen and (min-width: 960px) { 
+  .main-container {
+    background-image: url('images/dino-index-dt.png');
+    background-size: cover no-repeat;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    margin: 0%;
+    padding: 0%;
+  }
 }
 
 /* Container holding the image and the text */
 .main-container {
   position: relative;
   text-align: center;
-  color: blackz
+  background-size: cover no-repeat;
+  object-fit: cover;
+ 
 }
   /* Centered text */
  .centered {
