@@ -14,8 +14,16 @@
     
    
       <div class="main-container">
-        <div id="bg-image">
-        <img src="" alt="dino-start" class="img-fluid" >
+       <picture>
+         <source media="(min-width: 960px)"
+         srcset="images/dino-index-dt.png">
+
+         <source media="(min-width: 600px)"
+         srcset="images/dino-start.jpg">
+
+        <img src="images/dino-start.jpg" class="img-fluid">
+
+       </picture>
         
             <div class="centered">
               <ul>
