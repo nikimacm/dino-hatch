@@ -41,12 +41,11 @@ body {
 
 @media only screen and (max-width: 700px) { 
   .main-container {
-    background-image: url('images/dino-start.jpg');
+    background-image: url('images/dino-start.png');
     background-size: cover no-repeat;
     width: 100%;
     background-repeat: no-repeat;
     object-fit: contain;
-    margin-top: 45%;
     padding: 0%;
   }
   
