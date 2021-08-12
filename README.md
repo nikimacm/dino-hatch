@@ -64,17 +64,21 @@ The goal of this project is to develop a simple memory match game for little kid
 #### User Goals
 
 1. To be able to navigate the site easily.
+
 2. To have fun finding the cute dinosaurs.
 
 #### User Stories
 
 3. As a young child I would like to have fun matching the cute dinosars which are easily recognisable.
+
 4. As a parent I want a game that is simple for my child to play and understand while fun at the same time.
 
 #### Site Owner Goals
 
 5. Develop a fun and simple game which is appealing to small children.
+
 6. Add more difficult levels which will teach children to say the dinosaur names. 
+
 7. Continue to develop the game to include dinosaur facts and a quiz so parents and children can engage in the game together.
 
 #### User Requirements and expectations
@@ -101,10 +105,11 @@ The colours I have used are bright and engaging.
 
 #### FONTS
 
+I have used two fonts througout this project. There is not a lot of text, only the heading, buttons and how tp play modal. I used Mouse Memoirs for the heading and Roboto for the text. Mouse memoirs is a very playful and fun font and Roboto goes very well with it.
 
 #### IMAGES
 
-
+I choose to use cute and colourful dinosaur images to appeal to young children. While children in the 3-5 age range love dinosaurs they can also be afraid of scary dinosaur images. I dowmloaded all my images from vectorstock https://www.vectorstock.com/free-vectors and vecteezy https://www.vecteezy.com/.
 ### WIREFRAMES <hr>
 
 
