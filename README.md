@@ -59,18 +59,33 @@
 ### UX <hr>
 #### Project Goals 
 
+The goal of this project is to develop a simple memory match game for little kids using HTML, CSS and JavaScript. It was inspired by my three year old daughter who is obsessed with dinosaurs. The project needs to be fun, functional and simple to play.
+
 #### User Goals
 
+1. To be able to navigate the site easily.
+2. To have fun finding the cute dinosaurs.
 
 #### User Stories
 
+3. As a young child I would like to have fun matching the cute dinosars which are easily recognisable.
+4. As a parent I want a game that is simple for my child to play and understand while fun at the same time.
+
 #### Site Owner Goals
 
-
+5. Develop a fun and simple game which is appealing to small children.
+6. Add more difficult levels which will teach children to say the dinosaur names. 
+7. Continue to develop the game to include dinosaur facts and a quiz so parents and children can engage in the game together.
 
 #### User Requirements and expectations
 
+8. A fast loading time.
 
+9. A website which is clear and easy to navigate.
+
+10. Recognisable format, no surprises.
+
+11. A well designed, aesthetically pleasing user interface..
 
 ![User Goals Test]()
 
@@ -78,8 +93,11 @@
 
 #### DESIGN CHOICES
 
+I chose to use a colourful, cute design using images which are appealing to young children and toddlers. 
+
 #### COLOURS
 
+The colours I have used are bright and engaging.
 
 #### FONTS
 
