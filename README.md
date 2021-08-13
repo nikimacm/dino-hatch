@@ -110,32 +110,23 @@ I have used two fonts througout this project. There is not a lot of text, only t
 #### IMAGES
 
 I choose to use cute and colourful dinosaur images to appeal to young children. While children in the 3-5 age range love dinosaurs they can also be afraid of scary dinosaur images. I dowmloaded all my images from vectorstock https://www.vectorstock.com/free-vectors and vecteezy https://www.vecteezy.com/.
+
 ### WIREFRAMES <hr>
 
 
-#### Start
+#### Mobile
 
-* [mobile-start]()
+* [mobile-wireframes](images/mobile-wireframes.png)
 
-* [tablet-start]()
 
-* [desktop-start]()
 
-#### Game
+#### Tablet
 
-* [mobile-game]()
+* [tablet-wireframes](images/tablet-wireframes.png)
 
-* [tablet-game]()
+#### Desktop
 
-* [desktop-game]()
-
-#### Game Completed Modal
-
-* [mobile-modal]()
-
-* [tablet-modal]()
-
-* [desktop-modal]()
+* [desktop-wireframes](images/desktop-wireframes.png)
 
 
 ### FEATURES <hr>
