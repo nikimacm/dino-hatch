@@ -35,6 +35,7 @@ body {
     top: 50%;
     left: 10%;
     transform: translate(-50%, -10%);
+  
   }
 }
 
@@ -55,6 +56,8 @@ body {
   font-size: 150px;
   margin-top: -30px;
 }
+
+
 
 /* Modal */
 .popup .overlay {
@@ -109,19 +112,7 @@ body {
   transform:translate(-50%,-50%) scale(1);
 }
  
-/* button {
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  padding:15px;
-  font-size:18px;
-  border:2px solid #222;
-  color:#222;
-  text-transform:uppercase;
-  font-weight:600;
-  background:#fff;
-}
+
 /* Container holding the image and the text */
 .main-container {
   position: relative;
@@ -132,7 +123,10 @@ body {
  
 }
   /* buttons */
+  .centered
   .launch-button {
+
+    text-transform: uppercase;
    
   }
 
@@ -181,7 +175,7 @@ body {
   height: 100%;
   padding: 20px;
   position: absolute;
-  border-radius: 5px;
+  border-radius: 0px;
   background: #1f0218;
   backface-visibility: hidden;
 }
@@ -190,3 +184,27 @@ body {
   transform: rotateY(180deg);
 }
 
+@media only screen and (max-width: 700px) { 
+  .front-face,
+  .back-face {
+  width: 50%;
+  height: 50%;
+  padding: 100px;
+  position: absolute;
+  border-radius: 5px;
+  background: #1f0218;
+  backface-visibility: hidden;
+}
+
+.memory-card {
+  width: 50%;
+  height: 50%;
+  margin: 5px;
+  position: relative;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform .5s;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
+  
+}
