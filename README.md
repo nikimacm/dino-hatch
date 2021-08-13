@@ -240,15 +240,15 @@ To work on the project code within a local IDE such as VSCode, Sublime Text, etc
 
 ### CREDITS<hr>
 
+// Credit to freeCodeCamp.org/ https://marina-ferreira.github.io/memory-game/  
+This you tube video helped me to implement the memory cards flip, match and structure.
+
 #### Images
 
-I downloaded all the images for this site from ....
-
-* Image by <a href="https://">name of illustrator</a> on <a href="">name of web</a>
-
-#### Code
-
+I downloaded all the images for this site from vectorstock https://www.vectorstock.com/free-vectors and vecteezy https://www.vecteezy.com/.
 
 
  
  ### ACKNOWLEDGEMENTS<hr><hr>
+
+ I have been very short on time for this project due to unforseen circumstances, and would like to thank Alexander in student care for all his support and help when I really needed it. 
