@@ -1,4 +1,4 @@
-![Website Mokup]()
+![Website Mokup](images/mokup-all-devices.png)
 
  [View Live Site Here](https://nikimacm.github.io/dino-hatch/)
 
