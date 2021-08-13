@@ -3,7 +3,7 @@
  [View Live Site Here](https://nikimacm.github.io/dino-hatch/)
 
 
-# Dino Hatch
+# Dino Match
 
 ## Contents
 
@@ -26,12 +26,9 @@
     * [Game Page](#game)
     * [Congratulations Modal](#congratulations)
 
-* [FEATURES](#features)
-    * [Feature 1: Start Page](#start)
-    * [Feature 2: Game Page](#game)
-    * [Feature 3: Congratulations Modal](#congratulations)
 
 * [TECHNOLOGIES USED](#technologies)
+
     * [Github](#github)
     * [Gitpod](#gitpod)
     * [Google Fonts](#google-fonts)
@@ -129,89 +126,13 @@ I choose to use cute and colourful dinosaur images to appeal to young children. 
 * [desktop-wireframes](images/desktop-wireframes.png)
 
 
-### FEATURES <hr>
 
-
-#### Feature 1: 
-* 
-
-* 
-
-![...]()
-
-* 
-
-![...]()
-
-
-* 
-
-![...]()
-
-* 
-
-![...]()
-#### Feature 2: 
-
-* 
-
-* 
-
-![...]()
-
-* 
-
-![...]()
-
-* 
-
-![...]()
-
-* 
-
-#### Feature 3: ...
-
-* 
-
-* 
-
-![...]()
-
-* 
-
-![...]()
-
-* 
-
-#### Feature 4: ...
-
-* 
-
-![...]()
-
-* 
-
-![...]()
-
-* 
-
-![...]()
-
-* 
-
-![...]()
-
-#### Feature 5: ...
-
-* 
-
-!![...]()
 
 ### TECHNOLOGIES USED <hr>
 
 Languages used:
 
-* javascript
+* Javascript
 * HTML 5
 * CSS
 - [Gitpod](https://gitpod.io) 
@@ -249,21 +170,14 @@ Google Lighthouse was used to measure the speed and performance of the website.
 
 #### Start
 
-* [Lighthouse Mobile Start]()
-* [Lighthouse Tablet Start]()
-* [Lighthouse Desktop Start]()
+* [Lighthouse Mobile Start](docs/lighthouse-mobile-start.png)
+* [Lighthouse Desktop Start](docs/lighthouse-desktop-start.png)
 
 #### Game
 
-* [Lighthouse Mobile Game]()
-* [Lighthouse Tablet Game]()
-* [Lighthouse Desktop Game]()
+* [Lighthouse Mobile Game](docs/lighthouse-mobile-start.png)
+* [Lighthouse Desktop Game](docs/lighthouse-desktop-start.png)
 
-#### Modal Congratulations
-
-* [Lighthouse Mobile Modal]()
-* [Lighthouse Tablet Modal]()
-* [Lighthouse Desktop Modal]()
 
 ### Accessibility
 
@@ -271,32 +185,30 @@ WAVE Web Accessibility Evaluation Tool was used to test the sites accessibility.
 
 #### Start
 
-* [Start Page Evaluation](docs/validation/home-wave.png)
+* No errors were detected.
 
 
 #### Game
 
-* [Game Page Evaluation](docs/validation/about-wave.png)
+* No errors were detected
 
-
-#### Modal
-
-* [Modal Page Evaluation](docs/validation/courses-wave.png)
 
 ### HTML and CSS Validation
 
 
-* [HTML Validation]()
+* HTML Validation
+
+Document checking completed. No errors or warnings to show.
 
 
-* [CSS Validation]() 
+* CSS Validation 
 
 
 ### DEPLOYMENT <hr>
 
 This project was developed using the [Gitpod](https://gitpod.io), committed to git, and pushed to GitHub using the Gitpod terminal. 
 
-To deploy this page to GitHub Pages from its [GitHub repository](https://nikimacm.github.io/milestone-1-salazar/), the following process was completed: 
+To deploy this page to GitHub Pages from its [GitHub repository](https://nikimacm.github.io/dino-hatch/), the following process was completed: 
 1. Log into GitHub. 
 2. Click on the account avatar in the top right corner and select "Your repositories" from the dropdown menu.
 3. From the list of repositories, select **gbrw**.
@@ -312,12 +224,12 @@ To clone this project into Gitpod you will need a Github account. [Create a Gith
 
 Then follow these steps:
 1. Log into [Gitpod](https://gitpod.com) with your gitpod account.
-2. Navigate to the [Project GitHub repository](https://github.com/nikimacm/milestone-1-salazar)
+2. Navigate to the [Project GitHub repository](https://nikimacm.github.io/dino-hatch/)
 3. Click the green "Gitpod" button in the top right corner of the respository
 4. This will trigger a new gitpod workspace to be created based on the code in GitHub. There, you will be able to work locally.
 
 To work on the project code within a local IDE such as VSCode, Sublime Text, etc.:
-1. Navigate to the [Project GitHub repository](https://github.com/nikimacm/milestone-1-salazar)
+1. Navigate to the [Project GitHub repository](https://nikimacm.github.io/dino-hatch/)
 2. Click the "Code" download button next to the green "Gitpod" button.
 3. In the Clone section, select HTTPs and copy the clone URL for the repository. 
 4. Open your local terminal.
