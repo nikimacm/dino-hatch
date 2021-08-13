@@ -4,6 +4,7 @@ function togglePopup(){
   document.getElementById("popup-1").classList.toggle("active");
 }
 
+// Credit to freeCodeCamp.org/ https://marina-ferreira.github.io/memory-game/ 
 // Memory Game Level 1
 const cards = document.querySelectorAll('.memory-card');
 
