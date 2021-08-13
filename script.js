@@ -1,6 +1,10 @@
+
+// Modal
 function togglePopup(){
   document.getElementById("popup-1").classList.toggle("active");
 }
+
+// Memory Game Level 1
 const cards = document.querySelectorAll('.memory-card');
 
 let hasFlippedCard = false;
