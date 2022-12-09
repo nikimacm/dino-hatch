@@ -1,49 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto&display=swap');
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+  /* index-image */
+
+.main-img {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 100%; 
+  height: 100%;
+}
+.main-img img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
 }
 
-body {
-  height: 100vh;
-  display: flex;
-  background-size: cover;
-  background-color: rgb(20, 169, 196); 
-}
-
-
-#bg-image{
-  width: 200px;
-  height: 
-  400px;
-  object-fit: cover;
-
-}
-
-@media only screen and (min-width: 1000px) { 
-  #bg-image {
-  background-position-x: 50px;}
-}
-
-@media (orientation: landscape) {
-  body {
-    flex-direction: row;
-
-  }
- .img-fluid {
-    background-image: url('images/dino-index-dt.png')!important; 
-  }
- 
-}
-/* Container holding the image and the text */
-.main-container {
-  position: relative;
-  text-align: center;
-  color: black
-}
   /* Centered text */
  .centered {
     position: absolute;
